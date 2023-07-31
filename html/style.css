@@ -1,0 +1,41 @@
+/* asi se ponen notasss
+selector{
+    propiedad:valor;
+    propiedad: valor;
+    propiedad: valor;
+}
+*/
+body{
+    background-color: hsl(15, 70%, 71%);
+    /*como cambiar la tipografia*/
+    font-family: 'Bacasime Antique', serif;
+/*como cargar una fuente a través de internet de fonts*/
+
+}
+/* para editar imagenes tenemos width y height
+*/
+img{
+    /*anchura width height altura*/
+    width: 300px;
+    height: 200px;
+}
+/*para cambiar el color de todo de algo es así */
+p{
+    color: darkolivegreen;
+}
+/* por ejemplo para cambiar el color de parrafo de solo uno de mis parrafos (o elementos) tendria que 
+poner primero una clase a ese elemento en el codigo html, y ya asignada la clase ya podemos llamarlo aquí */
+.p-pandas {
+    color: brown
+}
+
+.main-title{
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.menu {display: flex;
+    /*en columna*/
+     flex-direction: column;
+     /*alinea items centrados*/
+    align-items: center;
+}
